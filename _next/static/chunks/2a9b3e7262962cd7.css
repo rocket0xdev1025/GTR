@@ -1,0 +1,58 @@
+.Notifications-module__bKUq5q__root {
+  background-color: var(
+    --notification-color,
+    var(--mantine-primary-color-filled)
+  );
+  height: 40px;
+  top: 40px;
+}
+.Notifications-module__bKUq5q__root:before {
+  background-color: var(--mantine-color-white);
+}
+.Notifications-module__bKUq5q__description,
+.Notifications-module__bKUq5q__title,
+.Notifications-module__bKUq5q__closeButton {
+  color: var(--mantine-color-white);
+}
+@media (hover: hover) {
+  .Notifications-module__bKUq5q__closeButton:hover {
+    background-color: #0000001a;
+  }
+}
+@media (hover: none) {
+  .Notifications-module__bKUq5q__closeButton:active {
+    background-color: #0000001a;
+  }
+}
+.Notifications-module__bKUq5q__mantine-Notification-loader:after {
+  border-color: #fff !important;
+}
+.Notifications-module__bKUq5q__icon {
+  margin-inline-end: 0;
+}
+.Snowfall-module__TC0oGq__snowflake {
+  background-color: #fff;
+  border-radius: 50%;
+  animation-name: Snowfall-module__TC0oGq__fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: -10px;
+}
+@keyframes Snowfall-module__TC0oGq__fall {
+  0% {
+    transform: translateY(0) translate(0);
+  }
+  25% {
+    transform: translateY(12px) translate(15px);
+  }
+  50% {
+    transform: translateY(24px) translate(-15px);
+  }
+  75% {
+    transform: translateY(36px) translate(15px);
+  }
+  to {
+    transform: translateY(60px) translate(0);
+  }
+}
