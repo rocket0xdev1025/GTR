@@ -3205,22 +3205,7 @@ ${d}`);
           user: a,
           authenticated: s,
         } = (0, o.usePrivy)();
-        return t && s
-          ? (0, r.jsx)(tY, {})
-          : (0, r.jsx)("div", {
-              children: (0, r.jsx)(eI.Button, {
-                variant: "outline",
-                size: "xs",
-                color: "white",
-                className:
-                  "!text-white !border-white hover:!bg-white/10 !rounded px-8 transition-all duration-200",
-                onClick: () => e({ loginMethods: ["email"] }),
-                children: (0, r.jsx)("span", {
-                  className: "text-sm font-semibold",
-                  children: "Log In",
-                }),
-              }),
-            });
+        return t && s ? (0, r.jsx)(tY, {}) : null;
       },
       t0 = ({ isMobileMenuOpen: e, setIsMobileMenuOpen: t }) => {
         let a = (0, eM.useRouter)(),
@@ -3270,7 +3255,7 @@ ${d}`);
               items: [
                 {
                   label: "Crypto Perpetuals",
-                  href: "/trade/crypto-perps/BTC/",
+                  href: "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA",
                 },
               ],
             },
@@ -4647,7 +4632,7 @@ ${d}`);
               items: [
                 {
                   label: "Crypto Perpetuals",
-                  href: "/trade/crypto-perps/BTC/",
+                  href: "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA",
                   description: "Trade crypto futures with up to 40x leverage",
                 },
               ],

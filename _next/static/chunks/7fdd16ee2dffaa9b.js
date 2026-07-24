@@ -1992,7 +1992,7 @@
             description:
               "Trade Crypto Perpetuals, Onchain, Stocks, and RWA Perpetuals with up to 100x leverage. Track smart money, react to breaking news, and catch market-moving events as they happen.",
             foundingDate: "2023",
-            sameAs: ["https://x.com/tradeongtr"],
+            sameAs: ["https://x.com/gtrtraderbh"],
             contactPoint: {
               "@type": "ContactPoint",
               contactType: "Customer Support",

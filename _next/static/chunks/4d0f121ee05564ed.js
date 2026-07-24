@@ -6306,7 +6306,7 @@
                         className: "flex items-center gap-4 pr-6",
                         children: (0, y.jsx)("div", {
                           children: (0, y.jsx)("a", {
-                            href: "https://x.com/tradeongtr",
+                            href: "https://x.com/gtrtraderbh",
                             target: "_blank",
                             children: (0, y.jsx)(A.IconBrandX, {
                               className:

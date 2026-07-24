@@ -1507,7 +1507,7 @@
                   children: (0, a.jsx)(eb, {
                     variant: "cyan",
                     onClick: () => {
-                      window.location.href = "/trade/crypto-perps/BTC/";
+                      window.location.href = "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA";
                     },
                     children: "Start Trading Now",
                   }),
